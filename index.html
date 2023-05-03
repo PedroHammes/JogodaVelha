@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div id="scoreboard">
+    <div id="score-p1">
+      <h3 id="p1">Player 1</h3>
+      <label for="VP1">V: </label>
+      <input type="number" name="VP1" id="VP1" disabled>
+      <label for="DP1">D: </label>
+      <input type="number" name="DP1" id="DP1" disabled>
+      <label for="EP1">E: </label>
+      <input type="number" name="EP1" id="EP1" disabled>
+    </div>
+    <br>
+    <div id="score-p2">
+      <h3 id="p2">Player 2</h3>
+      <label for="VP2">V: </label>
+      <input type="number" name="VP2" id="VP2" disabled>
+      <label for="DP2">D: </label>
+      <input type="number" name="DP2" id="DP2" disabled>
+      <label for="EP2">E: </label>
+      <input type="number" name="EP2" id="EP2" disabled>
+    </div>
+  </div>
+
+  <div id="main-content">
+    <br>
+    <div id="turn">
+      <br>
+      <label for="player-turn">Jogador da vez:</label>
+      <input type="text" name="player-turn" id="player-turn" disabled>
+    </div>
+    <div id="board">
+      <button class="btn" id="0" disabled></button>
+      <button class="btn" id="1" disabled></button>
+      <button class="btn" id="2" disabled></button>
+      <button class="btn" id="3" disabled></button>
+      <button class="btn" id="4" disabled></button>
+      <button class="btn" id="5" disabled></button>
+      <button class="btn" id="6" disabled></button>
+      <button class="btn" id="7" disabled></button>
+      <button class="btn" id="8" disabled></button>
+    </div>
+    <br><br>
+    <button type="button" id="play-btn">Iniciar Jogo</button>
+    <br>
+    <p>Último vencedor:</p>
+    <h3 id="last-winner"></h3>
+  </div>
+
+  <div id="register-players">
+    <h3>Registro de Jogadores:</h3>
+    <label for="full-name">Jogador 1: <input type="text" name="full-name" id="player-1" placeholder="Player 1"></label>
+    <label for="full-name">Jogador 2: <input type="text" name="full-name" id="player-2" placeholder="Player 2"></label>
+    <button type="button" id="register-btn">Registrar Jogadores</button>
+  </div>
+
+</body>
+</html>
