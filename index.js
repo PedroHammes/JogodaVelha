@@ -1,10 +1,13 @@
 export {players, playerTurn, round, boardSquares, txtDarkmode}
+
 import { registerPlayers } from "./Modules/register-players.js"
 import { startGame } from "./Modules/start-game.js"
+import { highlightWinCondition } from "./Modules/highlight-win-condition.js"
 
 const board = document.getElementById('board')
 const registerBtn = document.getElementById('register-btn')
 const playBtn = document.getElementById('play-btn')
+const allBtnofBoard = document.querySelectorAll('.btn')
 let players = []
 let round = 0
 let playerTurn = document.getElementById('player-turn')
@@ -29,8 +32,8 @@ registerBtn.addEventListener('click', registerPlayers)
 //INÍCIO DE JOGO
 playBtn.addEventListener('click', startGame)
 
-
-document.querySelectorAll('.btn').forEach(function(btn){
+//TROCA DE TURNO E MARCAÇÃO
+allBtnofBoard.forEach(function(btn){
   btn.addEventListener('click', function(){
     if(round%2 !== 0){
       console.log(`Round Atual: ${round} (P1)`)
@@ -55,12 +58,6 @@ document.querySelectorAll('.btn').forEach(function(btn){
     }
   })
 })
-
-function highlightWinCondition(arrIndex1, arrIndex2, arrIndex3, playerColor){
-  document.getElementById(arrIndex1).style.borderColor = playerColor
-  document.getElementById(arrIndex2).style.borderColor = playerColor
-  document.getElementById(arrIndex3).style.borderColor = playerColor
-}
 
 function winCondition(array){
   if((array[0] == array[1]) && (array[1] == array[2])){
