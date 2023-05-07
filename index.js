@@ -1,11 +1,12 @@
-export {players}
+export {players, playerTurn, round, boardSquares, txtDarkmode}
 import { registerPlayers } from "./Modules/register-players.js"
+import { startGame } from "./Modules/start-game.js"
 
 const board = document.getElementById('board')
 const registerBtn = document.getElementById('register-btn')
 const playBtn = document.getElementById('play-btn')
 let players = []
-let round
+let round = 0
 let playerTurn = document.getElementById('player-turn')
 let boardSquares = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 let winner = ''
@@ -26,20 +27,7 @@ let ep2 = document.getElementById('EP2')
 registerBtn.addEventListener('click', registerPlayers)
 
 //INÍCIO DE JOGO
-  playBtn.addEventListener('click', function () {
-  playerTurn.value = players[0][0]
-  round = 1
-  document.querySelectorAll('.btn').forEach(function(btn){ //tentativa de limpar e reablitar todos os botões
-    btn.disabled = false
-    btn.innerText = ''
-    btn.style.borderColor = txtDarkmode
-  })
-  for(let i=0; i<boardSquares.length; i++){
-    boardSquares[i] = i
-  }
-  console.log(boardSquares)
-  return
-})
+playBtn.addEventListener('click', startGame)
 
 
 document.querySelectorAll('.btn').forEach(function(btn){
