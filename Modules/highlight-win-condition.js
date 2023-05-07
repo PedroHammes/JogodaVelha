@@ -1,4 +1,5 @@
-import { players, lastWinner, p1Color, p2Color, round} from "../index.js"
+import { players, lastWinner, p1Color, p2Color} from "../index.js"
+import { round } from "./change-turn.js"
 
 export {highlightWinCondition, winCondition}
 
