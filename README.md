@@ -18,12 +18,6 @@ Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e prá
   Estrutura de Dados, Estruturas Condicionais, DOM, ESModules.
 </details>  
 
-# Por dentro da aplicação
-<video with="320" height="240" controls>
-  <source src="./Img/2023-05-08 10-50-39.mp4" type="mp4">
-</video>
-
-
 # Como testar
 O projeto só pode ser executado localmente, então será preciso clonar o repositório para o seu computador.
 Caso não saiba como clonar, **consulte o tutorial do** [Github](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)  
@@ -34,3 +28,6 @@ Caso não saiba como clonar, **consulte o tutorial do** [Github](https://docs.gi
 4. Ao final do jogo, se houver um vencedor, as marcações da vitória serão destacadas:  
 
 ![alt img](./Img/Captura%20de%20tela%202023-05-08%20105439.png)
+
+5. E o placar será alterado:  
+![alt img](./Img/Captura%20de%20tela%202023-05-08%20114719.png)
