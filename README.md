@@ -19,7 +19,7 @@ Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e prá
 </details>  
 
 # Por dentro da aplicação
-  ![](./Img/2023-05-08%2010-50-39.mp4)> 
+![](./Img/2023-05-08%2010-50-39.mp4)
 
 
 # Como testar
