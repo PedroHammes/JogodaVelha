@@ -18,6 +18,13 @@ Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e prá
   Estrutura de Dados, Estruturas Condicionais, DOM, ESModules.
 </details>  
 
+# Por dentro da aplicação
+<details>
+  <summary>Vídeo de Amostra (1)</summary>
+  ![](./Img/2023-05-08%2010-50-39.mp4)
+</details> 
+
+
 # Como testar
 O projeto só pode ser executado localmente, então será preciso clonar o repositório para o seu computador.
 Caso não saiba como clonar, **consulte o tutorial do** [Github](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)  
