@@ -9,6 +9,7 @@ Decidi colocar o projeto no gihub da forma como estava para registrar as primeir
 ## Tecnologias e práticas
 Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e práticas:
 <details>
+  <summary>Tecnologias</summary>
   teste
 </details>  
 
