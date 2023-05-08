@@ -27,9 +27,5 @@ Caso não saiba como clonar, **consulte o tutorial do** [Github](https://docs.gi
 1. Uma vez realizado o clone basta executar no seu VSCode (usando a extensão Live Server).
 2. Informe o nome dos jogadores e clique em iniciar jogo.
 3. Pronto, agora basta cada jogador realizar a sua jogada no seu turno.
-4. Ao final do jogo, se houver um vencedor, as marcações da vitória serão destacadas:  
-
-![alt img](./Img/Captura%20de%20tela%202023-05-08%20105439.png)
-
-5. E o placar será alterado:  
-![alt img](./Img/Captura%20de%20tela%202023-05-08%20114719.png)
+4. Ao final do jogo, se houver um vencedor, as marcações da vitória serão destacadas.
+5. E o placar será alterado.
