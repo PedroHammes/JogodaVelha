@@ -19,7 +19,9 @@ Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e prá
 </details>  
 
 # Por dentro da aplicação
-![](./Img/2023-05-08%2010-50-39.mp4)
+<video with="320" height="240" controls>
+  <source src="./Img/2023-05-08 10-50-39.mp4" type="mp4">
+</video>
 
 
 # Como testar
