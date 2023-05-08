@@ -11,5 +11,9 @@ Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e prá
 <details>
   <summary>Tecnologias</summary>
   HTML5, CSS3, Sass, Javascript.
-</details>  
+</details> 
 
+<details>
+  <summary>Práticas</summary>
+  Estrutura de Dados, Estruturas Condicionais, DOM, ESModules.
+</details>  
