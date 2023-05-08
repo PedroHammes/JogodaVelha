@@ -17,3 +17,13 @@ Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e prá
   <summary>Práticas</summary>
   Estrutura de Dados, Estruturas Condicionais, DOM, ESModules.
 </details>  
+
+# Como testar
+O projeto só pode ser executado localmente, então será preciso clonar o repositório para o seu computador.
+Caso não saiba como clonar, **consulte o tutorial do** [Github](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)  
+  
+1. Uma vez realizado o clone basta executar no seu VSCode (usando a extensão Live Server).
+2. Informe o nome dos jogadores e clique em iniciar jogo.
+3. Pronto, agora basta cada jogador realizar a sua jogada no seu turno.
+4. Ao final do jogo, se houver um vencedor as marcações da vitória serão destacadas:
+![alt text](./Img/Captura%20de%20tela%202023-05-08%20105439.png)
