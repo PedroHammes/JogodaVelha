@@ -1,5 +1,4 @@
 # Jogo da Velha
-===
 
 Tic Tac Toe (jogo da velha, em português) é um jogo simples que aprendemos ainda quando crianças.
 Desenvolvi este projeto em Março de 2023, como forma de praticar meus conhecimentos em programação web.
