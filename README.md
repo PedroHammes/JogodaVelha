@@ -9,9 +9,11 @@ Decidi colocar o projeto no gihub da forma como estava para registrar as primeir
 ## Tecnologias e práticas
 Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e práticas:
 <details>
-  <summary>Toggle Switch<summary>
-  - HTML5
-  - CSS3
-  - Sass
-  - Javascript
-</details>
+  <summary>Toggle Switch<summary>  
+
+  1. HTML5
+  2. CSS3
+  3. Sass
+  4. Javascript
+</details>  
+
