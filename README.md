@@ -21,7 +21,7 @@ Atualmente, este projeto foi desenvolvido usando as seguintes tecnologias e prá
 </details>  
 
 # Como testar
-O projeto só pode ser executado localmente, então será preciso clonar o repositório para o seu computador.
+Para executar localmente, então será preciso clonar o repositório para o seu computador.
 Caso não saiba como clonar, **consulte o tutorial do** [Github](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)  
   
 1. Uma vez realizado o clone basta executar no seu VSCode (usando a extensão Live Server).
@@ -29,3 +29,5 @@ Caso não saiba como clonar, **consulte o tutorial do** [Github](https://docs.gi
 3. Pronto, agora basta cada jogador realizar a sua jogada no seu turno.
 4. Ao final do jogo, se houver um vencedor, as marcações da vitória serão destacadas.
 5. E o placar será alterado.
+
+Você pode testar diretamente no seu navegador pelo link: [JogodaVelha.com](https://pedrohammes.github.io/JogodaVelha/)
